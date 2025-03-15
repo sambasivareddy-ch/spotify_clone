@@ -1,0 +1,20 @@
+.button {
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5pc;
+
+    border: solid 1px var(--spotify-green);
+    background-color: var(--spotify-green);
+    color: var(--spotify-white);
+    font-size: 16px;
+
+    width: 250px;
+}
+
+/* .button:hover {
+    background-color: var(--spotify-green-hover);
+    border: solid 1px var(--spotify-green-hover);
+    color: var(--spotify-black);
+    transform: scale(0.95);
+} */

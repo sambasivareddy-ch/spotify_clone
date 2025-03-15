@@ -1,0 +1,127 @@
+.artist-image-bubble {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: aliceblue;
+}
+
+.artist-image-bubble:nth-child(1) {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: cover;
+    background-image: url('../assets/artist-1.jpg');
+}
+
+.artist-image-bubble:nth-child(2) {
+    position: absolute;
+    top: 17%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: cover;
+    background-image: url('../assets/artist-2.jpg');
+}
+
+.artist-image-bubble:nth-child(3) {
+    position: absolute;
+    top: 15%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: cover;
+    background-image: url('../assets/artist-3.jpg');
+}
+
+.artist-image-bubble:nth-child(4) {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: cover;
+    background-image: url('../assets/artist-4.jpg');
+}
+
+.artist-image-bubble:nth-child(5) {
+    position: absolute;
+    top: 35%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: cover;
+    background-image: url('../assets/artist-5.jpg');
+}
+
+.artist-image-bubble:nth-child(6) {
+    position: absolute;
+    top: 65%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: cover;
+    background-image: url('../assets/artist-6.jpg');
+}
+
+.artist-image-bubble:nth-child(7) {
+    position: absolute;
+    top: 65%;
+    right: 48%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: cover;
+    background-image: url('../assets/artist-7.jpg');
+}
+
+.artist-image-bubble:nth-child(8) {
+    position: absolute;
+    top: 88%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: cover;
+    background-image: url('../assets/artist-8.jpg');
+}
+
+.artist-image-bubble:nth-child(9) {
+    position: absolute;
+    top: 85%;
+    right: 55%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: cover;
+    background-image: url('../assets/artist-9.jpg');
+}
+
+.artist-image-bubble:nth-child(10) {
+    position: absolute;
+    top: 86%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: cover;
+    background-image: url('../assets/artist-10.jpg');
+}
+
+.artist-image-bubble:nth-child(11) {
+    position: absolute;
+    top: 40%;
+    left:18%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: cover;
+    background-image: url('../assets/artist-11.jpg');
+}
+
+.artist-image-bubble:nth-child(12) {
+    position: absolute;
+    top: 65%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: cover;
+    background-image: url('../assets/artist-12.jpg');
+}
