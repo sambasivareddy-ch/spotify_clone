@@ -1,8 +1,8 @@
 import { Router, Request, Response } from 'express';
 
-import { getRedisClient } from '../db/redis';
+import { getRedisClient } from '../../db/redis';
 import { RedisClientType } from 'redis';
-import { RedisUserCacheType } from '../types/redisUserCacheType';
+import { RedisUserCacheType } from '../../types/redisUserCacheType';
 
 const router: Router = Router();
 
@@ -74,7 +74,13 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
             redisClient.set('user', JSON.stringify(redisUserCache));
         }
 
-        res.redirect('http://localhost:5173/home');
+        res.cookie('access_token', access_token, {
+            httpOnly: true,
+            secure: true,
+            maxAge: 3600000
+        });
+
+        res.redirect('http://localhost:5173/categories');
     } catch (err) {
         console.error(`Error: ${err}`);
         res.send(`Error: ${err}`);

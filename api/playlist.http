@@ -1,0 +1,3 @@
+curl --request GET \
+  --url https://api.spotify.com/v1/browse/categories/0JQ5DAt0tbjZptfcdMSKl3/playlists \
+  --header 'Authorization: Bearer BQDv7WrGY5xz1wGajB2rKH1aKo6gJVvc98-e3syFeR8CkIAWbls7K6w_71CvauTI3zSJKux3DAJ1ZbYvNOlQTftK9jZLSlRRCts6sprL_9dx7I65TsL4fKAJx9nIM-4crUFr0bMNVQymRE03bxrDeKX-keMLA5rLsA3tTmHngS0NCVt_VbkRNeD7ZjfAf1PRrUpSpOXOSI95Dc6SDJffC5bes9wxuErMNuI4-Q7LMJhzJgYJ4xEXCUKdtA'

@@ -2,8 +2,8 @@ import { Router, Request, Response } from 'express';
 import querystring from 'querystring';
 import { RedisClientType } from 'redis';
 
-import { generateRandomString } from '../utils/utils';
-import { getRedisClient } from '../db/redis';
+import { generateRandomString } from '../../utils/utils';
+import { getRedisClient } from '../../db/redis';
 
 const router: Router = Router();
 
